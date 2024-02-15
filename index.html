@@ -15,7 +15,27 @@
             quiz name
         </header>
         <section role="app">
-
+            <p class="poppins-semibold">
+                <span id="quiz-number">01</span>.
+                <span id="quiz-question">Hello World?</span>
+            </p>
+            <div id="answer-container" status="nutral">
+                <p onclick="selectionHandler(this)">
+                    <input type="radio" name="selections" id="answer-1">
+                    <label for="answer-1">Hellow</label>
+                </p>
+                <p onclick="selectionHandler(this)"><input type="radio" name="selections" id="answer-2">
+                    <label for="answer-2">Hellow</label>
+                </p>
+                <p class="" onclick="selectionHandler(this)">
+                    <input type="radio" name="selections" id="answer-3">
+                    <label for="answer-3">Hellow</label>
+                </p>
+                <p class="answer select" onclick="selectionHandler(this)">
+                    <input type="radio" name="selections" id="answer-4">
+                    <label for="answer-4">Hellow</label>
+                </p>
+            </div>
         </section>
         <section class="controllers">
             <p> <span id="present">01</span> of <span id="future">05</span> Questions</p>
